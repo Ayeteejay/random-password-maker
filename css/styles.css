@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  color: #6a33e3;
+  font: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+body button {
+  border: 0;
+  padding: 1rem;
+  background-color: #56b694;
+  border-radius: 0.5em;
+  color: #6a33e3;
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+}
+body button:hover {
+  background-color: #f9e07e;
+  transform: translate(0px, 5px) scale(1.1);
+}
+
+/*# sourceMappingURL=styles.css.map */

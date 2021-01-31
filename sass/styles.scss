@@ -1,0 +1,39 @@
+@import "globals";
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  color: $purple;
+  font: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  button {
+    border: 0;
+    padding: 1rem;
+    background-color: $green;
+    border-radius: 0.5em;
+    color: $purple;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+  }
+  button:hover {
+    background-color: $yellow;
+    transform: translate(0px, 5px) scale(1.1);
+  }
+}
+.intro {
+}
+.results {
+}
